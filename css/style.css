@@ -1,0 +1,125 @@
+body {
+  position: relative;
+}
+
+.dark-color {
+  background-color: #2c3e50;
+}
+
+.name-heading {
+  font-size: 4.5rem;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+}
+
+.dark-text {
+  color: #2c3e50;
+}
+
+.rounded-top {
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: 0.75rem !important;
+  border-bottom-right-radius: 0.75rem !important;
+}
+
+.card-body-color {
+  background-color: rgb(219, 219, 219);
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.modal-body a {
+  color: #1472b5;
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+}
+
+#contact-section a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#contact-section a:hover {
+  text-decoration: underline;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+
+.navbar-nav .active > .nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-nav .show > .nav-link {
+  color: #1472b5;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1472b5;
+}
+
+#home-section {
+  background-color: #1472b5;
+  min-height: calc(100vh - 56px);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+#contact-section {
+  background-color: #1472b5;
+}
+
+.envelope-icon {
+  height: 50px;
+  width: 50px;
+  filter: invert(100%) sepia(91%) saturate(3%) hue-rotate(198deg)
+    brightness(107%) contrast(100%);
+}
+
+.heart-icon {
+  height: 16px;
+  width: 16px;
+  filter: invert(11%) sepia(85%) saturate(7361%) hue-rotate(1deg)
+    brightness(98%) contrast(111%);
+}
+
+.email-text {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 375px) {
+  .name-heading {
+    font-size: 3.9rem;
+  }
+  .sub-heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .name-heading {
+    font-size: 3.6rem;
+  }
+  .sub-heading {
+    font-size: 1.1rem;
+  }
+}
