@@ -1,5 +1,4 @@
 (function($) {
-  "use strict";
   $('a.scroll-link[href*="#"]:not([href="#"])').click(function() {
     if (
       location.pathname.replace(/^\//, "") ==
