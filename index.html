@@ -1,560 +1,427 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="My Personal Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Mohamed Amara" />
+    <meta name="description" content="Mohamed Amara personal website" />
     <title>Mohamed Amara</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body
-    id="top-page"
-    data-spy="scroll"
-    data-target="#navigation-bar"
-    data-offset="56"
-  >
-    <nav
-      id="navigation-bar"
-      class="navbar sticky-top navbar-expand-lg dark-color"
-    >
-      <div class="container">
-        <a class="navbar-brand text-white scroll-link" href="#top-page"
-          >Mohamed Amara</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item mr-lg-2">
-              <a class="nav-link scroll-link" href="#about-section">À Propos</a>
+
+  <body>
+    <div id="container--main">
+      <section id="wrapper--hero" class="section--page">
+        <img src="./assets/images/avatar.svg" alt="" />
+        <div>
+          <h1 id="user-name">Mohamed Amara</h1>
+          <p id="bio">
+            Software engineer, tech enthusiast, always curious to know how
+            things around me work, I'm currently focusing on cross-platform app
+            development using Flutter framework.
+          </p>
+          <p>
+            <a href="mailto:contact@mohamedamara.com"
+              >👉 contact@mohamedamara.com</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section--page">
+        <h2>Where to find me</h2>
+        <div id="socials--list">
+          <a href="https://www.linkedin.com/in/mohamedamara/"
+            ><img src="./assets/images/linkedIn_logo.svg" alt="" />LinkedIn</a
+          >
+          <a href="https://github.com/mohamedamara" target="_blank"
+            ><img src="./assets/images/github_logo.svg" alt="" />GitHub</a
+          >
+        </div>
+      </section>
+      <section class="section--page">
+        <h2>Skills & Qualifications</h2>
+        <ul id="qualifications--list">
+          <li class="emoji-with-text">
+            <div>✔️</div>
+            <div>
+              4 years of professional experience as a software engineer.
+            </div>
+          </li>
+          <li class="emoji-with-text">
+            <div>✔️</div>
+            <div>Data structures and algorithms fundamentals.</div>
+          </li>
+          <li class="emoji-with-text">
+            <div>✔️</div>
+            <div>
+              Object oriented programming, design patterns, SOLID principles.
+            </div>
+          </li>
+          <li class="emoji-with-text">
+            <div>✔️</div>
+            <div>
+              Develop cross-platform applications using Flutter framework.
+            </div>
+          </li>
+          <li class="emoji-with-text">
+            <div>✔️</div>
+            <div>Publish Android & iOS apps (Google Play & App Store).</div>
+          </li>
+        </ul>
+      </section>
+      <section class="section--page">
+        <h2>Tech stack</h2>
+        <div id="wrapper--techstack__items">
+          <div class="card--techstack">
+            <span>Dart, Flutter</span>
+          </div>
+          <div class="card--techstack">
+            <span>Git, Github</span>
+          </div>
+          <div class="card--techstack">
+            <span>SQLite, Realm, Firebase</span>
+          </div>
+          <div class="card--techstack">
+            <span>Html, Css, Javascript, React (prior experience)</span>
+          </div>
+          <div class="card--techstack">
+            <span>NodeJS, Express (prior experience)</span>
+          </div>
+          <div class="card--techstack">
+            <span>MySQL, MongoDB (prior experience)</span>
+          </div>
+          <div class="card--techstack">
+            <span>Java, Native android development (prior experience)</span>
+          </div>
+        </div>
+      </section>
+      <section class="section--page">
+        <h2>Work History</h2>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🚧</div>
+            <div>SOFTWARE ENGINEER | BIG INFORMATIQUE</div></strong
+          >
+          <p>09/2020 - 09/2021</p>
+          <ul>
+            <li>
+              I created a mobile app using Flutter that integrates with an ERP
+              system to facilitate the submission of various HR requests
+              (vacation, sick leaves, etc...).
             </li>
-            <li class="nav-item mx-lg-2">
-              <a class="nav-link scroll-link" href="#projects-section"
-                >Projets</a
-              >
-            </li>
-            <li class="nav-item ml-lg-2">
-              <a class="nav-link scroll-link" href="#contact-section"
-                >Contact</a
+            <li>
+              I made a Full Stack app using Flutter and Node.js (REST API),
+              designed for medical clinics to view upcoming appointments and see
+              patients health profiles. <br />
+              <a
+                href="https://drive.google.com/open?id=1RKPY7LRlH2zIu0p2OeC8KTbAMemxlX5t"
+                target="_blank"
+                >Screenshots</a
               >
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
 
-    <section
-      id="home-section"
-      class="
-        d-flex
-        flex-column flex-lg-row
-        justify-content-center
-        align-items-center
-        text-center
-      "
-    >
-      <img
-        src="img/avatar.svg"
-        alt=""
-        class="mr-lg-5 mt-5 mt-lg-0 mb-3 mb-lg-0"
-      />
-      <div class="mb-5 mb-lg-0 mt-3 mt-lg-0">
-        <h1 class="mb-3 mb-lg-1 text-white name-heading">Mohamed Amara</h1>
-        <h1 class="font-weight-light text-white sub-heading">
-          Diplôme master en informatique | Développeur mobile
-        </h1>
-      </div>
-    </section>
+        <div class="line-break"></div>
 
-    <section id="about-section" class="text-center text-white py-5 dark-color">
-      <div class="container">
-        <h2 class="text-uppercase mb-4">À Propos</h2>
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <p class="lead">
-              Salut, je m'appelle Mohamed Amara, 27 ans, d'Annaba, Algérie.
-              J'aime tout ce qui concerne la technologie et la programmation, je
-              me concentre actuellement sur le développement d'applications
-              mobiles avec le merveilleux framework Flutter, et de temps en
-              temps j'essaie quelques projets IoT. Je suis toujours curieux et
-              intéressé de savoir comment les choses autour de moi fonctionnent.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects-section" class="text-center py-5">
-      <div class="container">
-        <h2 class="text-uppercase mb-5 dark-text">Projets</h2>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-1"
-            >
-              <img
-                src="img/projects-thumbnails/flutter.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Flutter UI Challenge</p>
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🚧</div>
+            <div>SOFTWARE ENGINEER | BLUESHIFT</div></strong
+          >
+          <p>09/2021 - Present</p>
+          <ul>
+            <li>
+              I developed a cross-platform app called QCMed (Android, iOS,
+              Windows) using Flutter to help students prepare for medical exams.
+              <div class="thin-text">
+                ⚠️ The app is exclusively accessible on Google Play and the App
+                Store within Algeria.
               </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-2"
-            >
-              <img
-                src="img/projects-thumbnails/gas.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Gas Detector</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-3"
-            >
-              <img
-                src="img/projects-thumbnails/quote.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Daily Quote</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-4"
-            >
-              <img
-                src="img/projects-thumbnails/website.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Todo List App</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-5"
-            >
-              <img
-                src="img/projects-thumbnails/mutucourse.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Mutucourse</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div
-              class="card mb-4 mx-2 mx-lg-0 border-0"
-              data-toggle="modal"
-              data-target="#modal-6"
-            >
-              <img
-                src="img/projects-thumbnails/esperance.webp"
-                class="card-img-top rounded-top"
-                alt=""
-              />
-              <div class="card-body rounded-bottom card-body-color">
-                <p class="card-text">Espérance</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact-section" class="py-5 text-center">
-      <div class="container">
-        <h2 class="text-white text-uppercase mb-5">Contact</h2>
-        <img
-          src="img/icons/envelope-solid.svg"
-          alt=""
-          class="envelope-icon mb-4"
-        />
-        <p>
-          <a href="mailto:name@email.com">contact@mohamedamara.com</a>
-        </p>
-      </div>
-    </section>
-
-    <footer class="d-flex justify-content-center p-3 text-white dark-color">
-      <div>
-        Made with
-        <img src="img/icons/heart-solid.svg" alt="" class="heart-icon" /> by me
-      </div>
-    </footer>
-
-    <!-- Modal 1 -->
-    <div
-      class="modal fade"
-      id="modal-1"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-1">
-              Flutter UI Challenge
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              Le principe de Flutter UI Challenge est de prendre quelques
-              interfaces graphiques à partir des sites web comme behance,
-              dribble, uplabs ou bien des applications existantes et les
-              programer avec Flutter sans mettre en consideration le
-              fonctionement réel de l'application. Voici les screenshots et les
-              codes sources des projets :
-              <a
-                href="https://github.com/mohamedamara/chat_app_ui"
-                target="_blank"
-                rel="noopener"
-                >chat app ui</a
-              >,
-              <a
-                href="https://github.com/mohamedamara/login_screen_ui"
-                target="_blank"
-                rel="noopener"
-                >login screen ui</a
-              >,
-              <a
-                href="https://github.com/mohamedamara/flutter_messenger_ui_clone"
-                target="_blank"
-                rel="noopener"
-                >facebook messenger ui clone</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div
-      class="modal fade"
-      id="modal-2"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-2">Gas Detector</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              Un projet IoT qui utilise NodeMCU, Firebase et Flutter et aide à
-              détecter les fuites de gaz en temp réel et notifier l’utilisateur
-              par une application mobile. Pour voir la video du projet veuillez
-              cliquer
-              <a
-                href="https://youtu.be/l7PYE8kHnkk"
-                target="_blank"
-                rel="noopener"
-                >ici</a
+              <a href="https://qcmed.app/" target="_blank">App links</a> -
+              <a href="https://youtu.be/vkMMPbo8xSI" target="_blank"
+                >Demo video</a
               >
-              et pour le code source veuillez cliquer
-              <a
-                href="https://github.com/mohamedamara/gas_detector_app"
+            </li>
+            <li>
+              I built a mobile app called 3 Minute Club using Flutter, designed
+              for static apnea training, perfect for free divers and breath-hold
+              enthusiasts. <br /><a
+                href="https://youtu.be/74GYWpANcmo"
                 target="_blank"
-                rel="noopener"
-                >ici</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
+                >Demo video</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section--page">
+        <h2>Education</h2>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🎓</div>
+            <div>Bachelor's degree in computer science</div></strong
+          >
+          <p>🏛️ University Badji mokhtar Annaba</p>
+          <p class="thin-text">📅 2013 - 2016</p>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🎓</div>
+            <div>Master's degree in computer science</div></strong
+          >
+          <p>🏛️ University Badji mokhtar Annaba</p>
+          <p class="thin-text">📅 2016 - 2018</p>
+          <div class="emoji-with-text">
+            <div>📄</div>
+            <span class="thin-text">
+              Final project title : Iot based secure water volumes and
+              capacities monitoring connected to Fiware smart cites platform.
+            </span>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section class="section--page">
+        <h2>Side Projects</h2>
 
-    <!-- Modal 3 -->
-    <div
-      class="modal fade"
-      id="modal-3"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-3">Daily Quote</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Books app</div></strong
+          >
+          <p>
+            This app contains a huge library of free and public domain books
+            ready to be explored by users with a delightful UI/UX, this full
+            stack project is built using Flutter for the mobile app and Node.js
+            for the backend.
+            <br />
+            <a href="https://youtu.be/qygO-Zf4CQY" target="_blank"
+              >Demo video
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/books-app-client"
+              target="_blank"
+              >Mobile app code
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/books-app-api"
+              target="_blank"
+              >Backend code
+            </a>
+          </p>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Payment card animations</div></strong
+          >
+          <p>
+            Stunning and engaging payment card animations crafted with Flutter,
+            suitable for integration into any application featuring a payment
+            workflow. Enhancements could include implementing automatic card
+            detection upon entry of the card number by the user.
+            <br />
+            <a href="https://payment-card-animations.web.app/" target="_blank"
+              >Live demo
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/payment-card-animations"
+              target="_blank"
+              >Source code
+            </a>
+            -
+            <a href="https://youtu.be/ilfc-f7BW1Y" target="_blank">Video </a>
+          </p>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Todo List App</div></strong
+          >
+          <p>
+            Full stack web application built with React and Node.js, enables
+            users to monitor their daily tasks, app's data syncs instantly
+            across devices with the help of WebSocket (Socket.IO), Additionally,
+            being a Progressive Web App (PWA), users have the option to install
+            it like a native app.
+            <br />
+            <span class="thin-text">
+              ⚠️ You might experience a delay upon initially accessing the live
+              demo, as I've opted for a free hosting service for this side
+              project.
+            </span>
+            <br />
+            <a
+              href="https://react-todo-list-app-with-pwa.netlify.app/"
+              target="_blank"
+              >Live demo
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/react-todo-list-client"
+              target="_blank"
+              >Frontend code
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/node-todo-list-api"
+              target="_blank"
+              >Backend code
+            </a>
+          </p>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Gas detector</div></strong
+          >
+          <p>
+            An IoT project Utilizing NodeMCU, Firebase and Flutter that helps
+            with the detection of gas leaks and promptly alert users via a
+            mobile application in real-time. <br />
+            <a href="https://youtu.be/fRJ6YxrxYPs" target="_blank"
+              >Demo video
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/gas_detector_app"
+              target="_blank"
+              >Mobile app code</a
             >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              Une application qui vous donne une citation quotidienne dite par
-              des personnages célèbres, pour vous inspirer et vous motiver. Pour
-              voir les screenshots de l’application et le code source veuillez
-              cliquer
-              <a
-                href="https://github.com/mohamedamara/daily_quote"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4 -->
-    <div
-      class="modal fade"
-      id="modal-4"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-4">Todo List App</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
+            -
+            <a
+              href="https://github.com/mohamedamara/gas_detector_nodemcu"
+              target="_blank"
+              >Microcontroller code</a
             >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              Applications web progressive PWA programmée avec React et NodeJS,
-              elle permet aux utilisateurs de suivre leur taches quotidienne.
-              Vous pouvez tester l'application
-              <a
-                href="https://react-todo-list-app-with-pwa.netlify.app/"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >, pour le code source du Backend veuillez cliquer
-              <a
-                href="https://github.com/mohamedamara/node-todo-list-api"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >, et pour le code source du Frontend veuillez cliquer
-              <a
-                href="https://github.com/mohamedamara/react-todo-list-client"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
+          </p>
         </div>
-      </div>
-    </div>
 
-    <!-- Modal 5 -->
-    <div
-      class="modal fade"
-      id="modal-5"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-5">Mutucourse</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Flutter UI challenge</div></strong
+          >
+          <p>
+            The Flutter UI Challenge aims to select UI designs from platforms
+            such as Behance, Dribbble, Uplabs, or existing applications, and
+            endeavor to recreate them using Flutter, disregarding the actual
+            functionality of the app. Below are the screenshots and source codes
+            of these projects :
+            <br />
+            <a
+              href="https://github.com/mohamedamara/daily_quote"
+              target="_blank"
+              >Daily quote
+            </a>
+            -
+            <a
+              href="https://github.com/mohamedamara/chat_app_ui"
+              target="_blank"
+              >Chat app</a
             >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              J'étais le gagnant avec cette application mobile dans la
-              compétition de la meilleure idée d'un projet organisée par
-              l'agence nationale de soutien a l'emploi des jeunes (ANSEJ) et
-              l'université Badji Mokhtar Annaba, et en ce qui concerne
-              l’application elle même, elle est destinée aux utilisateurs pour
-              leur faciliter le transport des marchandises, elle consiste à
-              mettre des transporteurs sur une carte géographique qui sont à la
-              disposition des clients et offre à ces derniers la possibilité de
-              les contacter par un simple clique. Pour voir les screenshots de
-              l’application veuillez cliquer
-              <a
-                href="https://drive.google.com/open?id=1N6jNQbTkHFX5PeXnc14S8CMo9LMHlE7U"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 6 -->
-    <div
-      class="modal fade"
-      id="modal-6"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="ModalCenterTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="ModalLongTitle-6">Espérance</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
+            -
+            <a
+              href="https://github.com/mohamedamara/login_screen_ui"
+              target="_blank"
+              >Login screen</a
             >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="mb-1">
-              Une application desktop que j'ai fait en faveur d’un magasin de
-              pâtisserie à Annaba qui aide à organiser les commandes des
-              clients, l'application est programmée 100% avec Java en utilisant
-              la bibliothèque graphique Swing. Pour voir les screenshots de
-              l’application veuillez cliquer
-              <a
-                href="https://drive.google.com/open?id=14Q6XJrC_LqAUlBbwoYCxbr-2b-bO5d4U"
-                target="_blank"
-                rel="noopener"
-                >ici</a
-              >.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">
-              Close
-            </button>
-          </div>
+            -
+            <a
+              href="https://github.com/mohamedamara/flutter_messenger_ui_clone"
+              target="_blank"
+              >Facebook messenger</a
+            >
+          </p>
         </div>
-      </div>
-    </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/script.js"></script>
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>Espérance</div></strong
+          >
+          <p>
+            I created this desktop application using Java Swing for a well-known
+            cake design shop in my city named
+            <a
+              href="https://www.facebook.com/esperancecakedesign"
+              target="_blank"
+              >Espérance Cake Design.
+            </a>
+
+            The app streamlined their order management process and enabled
+            seamless printing of receipts using a thermal printer.<br />
+            <a
+              href="https://drive.google.com/open?id=14Q6XJrC_LqAUlBbwoYCxbr-2b-bO5d4U"
+              target="_blank"
+              >Screenshots</a
+            >
+          </p>
+        </div>
+
+        <div class="line-break"></div>
+
+        <div class="card--history">
+          <strong class="emoji-with-text"
+            ><div>🏆</div>
+            <div>MutuCourse</div></strong
+          >
+          <p>
+            I won with this mobile app in the competition for the best project
+            idea organized by ANSEJ and University Badji Mokhtar Annaba in
+            December 2017. The app was built using native Android SDK and
+            Firebase GeoFire and it is designed to improve the process of
+            transporting goods for users.
+            <br />
+            <a
+              href="https://drive.google.com/open?id=1N6jNQbTkHFX5PeXnc14S8CMo9LMHlE7U"
+              target="_blank"
+              >Screenshots</a
+            >
+          </p>
+        </div>
+      </section>
+      <footer id="footer">
+        This website is a forked version of this
+        <a href="https://github.com/divanov11/Digital-Resume" target="_blank"
+          >Template.</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
