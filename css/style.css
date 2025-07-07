@@ -156,6 +156,14 @@ a {
   font-weight: 300;
 }
 
+#contribution-item-img {
+  vertical-align: sub;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  object-fit: contain;
+}
+
 @media (max-width: 600px) {
   .section--page {
     padding-top: 1em;
